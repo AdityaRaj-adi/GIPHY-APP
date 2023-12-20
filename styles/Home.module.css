@@ -227,3 +227,48 @@
     transform: rotate(0deg);
   }
 }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.mainContent {
+  padding: 1rem;
+}
+
+.header {
+  background-color: #008B8B;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.search-button {
+  background-color: #004953;
+  color: white;
+  border: none;
+  padding: 1rem 1rem;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #d1454b;
+}
+
+.search-container {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.search-input,
+.search-button {
+  margin-right: 1rem;
+}
+
